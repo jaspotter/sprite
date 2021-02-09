@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,900&display=swap');
+
+
+body {
+    font-family: Nunito;
+    margin: 0;
+    padding: 0;
+    font-weight: 900;
+    font-style: italic;
+}
+
+header {
+    background-color: #459a55;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+header > div:first-of-type {
+    display: flex;
+    align-items: center;
+}
+
+header > div:first-of-type img {
+    width: 100px;
+}
+
+header > div > p {
+    padding: 5px;
+}
+
+header > div img {
+    width: 240px;
+}
+
+main img {
+    max-width: 100%;
+    
+}
+
+main {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+main > div > div > p {
+    margin-top: 0;
+}
+
+main h2 em {
+    color: #6cc24a;
+}
+
+
+main .columns {
+    display: flex;
+}
+
+main .columns > div {
+    padding: 5px;
+    text-align: left;
+}
+
+main .columns > div > div {
+    min-height: 90px;
+}

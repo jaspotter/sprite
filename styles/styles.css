@@ -31,7 +31,7 @@ header > div > p {
 }
 
 header > div img {
-    width: 240px;
+    width: 340px;
 }
 
 main img {
@@ -50,7 +50,7 @@ main > div > div > p {
 }
 
 main h2 em {
-    color: #6cc24a;
+    color: #ebfa15;
 }
 
 
@@ -59,10 +59,16 @@ main .columns {
 }
 
 main .columns > div {
-    padding: 5px;
+    padding: 10px;
     text-align: left;
 }
 
 main .columns > div > div {
     min-height: 90px;
+}
+
+#buy-now > a {
+    font-size: 3em;
+    font-weight: 500;
+    color: #459a55;
 }
